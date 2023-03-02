@@ -1,0 +1,267 @@
+@import url("https://fonts.google.com/specimen/Inter");
+.header-style {
+  padding: 10px 30px;
+}
+.header-style .header-left {
+  width: 10%;
+}
+.header-style .header-left img {
+  float: left;
+}
+.header-style .header-right {
+  width: 90%;
+}
+.header-style .header-right .nav-style {
+  float: right;
+}
+.header-style .header-right .nav-style ul {
+  margin-right: 50px;
+}
+.header-style .header-right .nav-style ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+.header-style .header-right .nav-style ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.scOne {
+  width: 90%;
+  height: 600px;
+  display: flex;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+.scOne .scLeft {
+  width: 70%;
+}
+.scOne .scLeft img {
+  width: 100%;
+}
+.scOne .scLeft .contentZero {
+  display: flex;
+}
+.scOne .scLeft .contentZero .contentOne {
+  width: 50%;
+}
+.scOne .scLeft .contentZero .contentOne h1 {
+  font-size: 48px;
+}
+.scOne .scLeft .contentZero .contentTwo {
+  width: 50%;
+}
+.scOne .scLeft .contentZero .contentTwo p {
+  font-size: 24px;
+}
+.scOne .scLeft .contentZero .contentTwo button {
+  height: 50px;
+  width: 40%;
+  color: hsl(36, 100%, 99%);
+  background-color: hsl(5, 85%, 63%);
+  border: none;
+}
+.scOne .scRight {
+  width: 30%;
+  margin-left: 20px;
+  padding-left: 20px;
+  background-color: hsl(240, 100%, 5%);
+}
+.scOne .scRight h1 {
+  font-size: 36px;
+  color: hsl(35, 77%, 62%);
+}
+.scOne .scRight h2 {
+  color: hsl(36, 100%, 99%);
+}
+.scOne .scRight p {
+  color: hsl(233, 8%, 79%);
+}
+
+.scTwo {
+  width: 90%;
+  display: flex;
+  padding: 0px 70px;
+}
+.scTwo .contentscTwo {
+  width: 33.33%;
+  display: flex;
+}
+.scTwo .contentscTwo .ctentLeft {
+  width: 30%;
+}
+.scTwo .contentscTwo .ctentLeft img {
+  width: 100%;
+}
+.scTwo .contentscTwo .ctentRight {
+  width: 70%;
+  margin-left: 10px;
+}
+.scTwo .contentscTwo .ctentRight h2 {
+  color: hsl(236, 13%, 42%);
+}
+.scTwo .contentscTwo .ctentRight h3 {
+  border: 4em;
+}
+.scTwo .contentscTwo .ctentRight p {
+  color: hsl(236, 13%, 42%);
+}
+
+@media only screen and (max-width: 900px) {
+  .header-style {
+    width: 100%;
+    padding: 50px 0px 50px 30px;
+  }
+  .header-style .header-left {
+    width: 10%;
+  }
+  .header-style .header-left img {
+    float: left;
+    width: 100%;
+  }
+  .header-style .header-right {
+    width: 90%;
+  }
+  .header-style .header-right .nav-style {
+    display: none;
+    float: right;
+  }
+  .header-style .header-right .nav-style ul {
+    margin-right: 50px;
+  }
+  .header-style .header-right .nav-style ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+  }
+  .header-style .header-right .nav-style ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  .header-style .header-right .nav-style-part {
+    display: flex;
+    float: right;
+  }
+  .scOne {
+    width: 100%;
+    height: 1120px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    margin-bottom: 20px;
+  }
+  .scOne .scLeft {
+    width: 100%;
+    flex-direction: column;
+  }
+  .scOne .scLeft img {
+    width: 100%;
+    height: 300px;
+    src: url("../images/image-web-3-mobile.jpg");
+  }
+  .scOne .scLeft .contentZero {
+    display: flex;
+    flex-direction: column;
+  }
+  .scOne .scLeft .contentZero .contentOne {
+    width: 100%;
+  }
+  .scOne .scLeft .contentZero .contentOne h1 {
+    font-size: 42px;
+  }
+  .scOne .scLeft .contentZero .contentTwo {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .scOne .scLeft .contentZero .contentTwo p {
+    font-size: 24px;
+  }
+  .scOne .scLeft .contentZero .contentTwo button {
+    height: 50px;
+    width: 40%;
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+  }
+  .scOne .scRight {
+    width: 100%;
+    flex-direction: column;
+    background-color: hsl(240, 100%, 5%);
+    margin-left: 0px;
+  }
+  .scOne .scRight h1 {
+    font-size: 24px;
+    color: hsl(35, 77%, 62%);
+  }
+  .scOne .scRight h2 {
+    color: hsl(36, 100%, 99%);
+  }
+  .scOne .scRight p {
+    color: hsl(233, 8%, 79%);
+  }
+  .scTwo {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    padding: 0px 0px;
+  }
+  .scTwo .contentscTwo {
+    width: 100%;
+    display: flex;
+  }
+  .scTwo .contentscTwo .ctentLeft {
+    width: 30%;
+  }
+  .scTwo .contentscTwo .ctentLeft img {
+    width: 100%;
+  }
+  .scTwo .contentscTwo .ctentRight {
+    width: 70%;
+    margin-left: 10px;
+  }
+  .scTwo .contentscTwo .ctentRight h2 {
+    color: hsl(236, 13%, 42%);
+  }
+  .scTwo .contentscTwo .ctentRight h3 {
+    border: 4em;
+  }
+  .scTwo .contentscTwo .ctentRight p {
+    color: hsl(236, 13%, 42%);
+  }
+}
+@media only screen and (min-width: 900px) {
+  .header-style {
+    padding: 10px 30px;
+  }
+  .header-style .header-left {
+    width: 10%;
+  }
+  .header-style .header-left img {
+    float: left;
+    width: 100%;
+  }
+  .header-style .header-right {
+    width: 90%;
+  }
+  .header-style .header-right .nav-style {
+    float: right;
+  }
+  .header-style .header-right .nav-style ul {
+    margin-right: 50px;
+  }
+  .header-style .header-right .nav-style ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+  }
+  .header-style .header-right .nav-style ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  .header-style .header-right .nav-style-part {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

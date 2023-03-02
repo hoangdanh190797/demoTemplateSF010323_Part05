@@ -1,0 +1,28 @@
+.scTwo{
+    width: 90%;
+    display: flex;
+    padding: 0px 70px;
+    .contentscTwo{
+        width: 33.33%;
+        display: flex;
+        .ctentLeft{
+            width: 30%;
+            img{
+                width: 100%;
+            }
+        }
+        .ctentRight{
+            width: 70%;
+            margin-left: 10px;
+            h2{
+                color: $gray2-color;
+            }
+            h3{
+                border: 4em;
+            }
+            p{
+                color: $gray2-color;
+            }
+        }
+    }
+}

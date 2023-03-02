@@ -1,0 +1,52 @@
+.scOne{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    
+    .scLeft{
+        width: 70%;
+        img{
+            width: 100%;
+        }
+        .contentZero{
+            display: flex;
+            .contentOne{
+                width: 50%;
+                h1{
+                    font-size: 48px;
+                }
+            }
+            .contentTwo{
+                width: 50%;
+                p{
+                    font-size: 24px;
+                }
+                button{
+                    height: 50px;
+                    width: 40%;
+                    color: $white-color;
+                    background-color: $red-color;
+                    border: none;
+                }
+            }
+        }
+    }
+    .scRight{
+        width: 30%;
+        margin-left: 20px;
+        padding-left: 20px;
+        background-color: $gray3-color;
+        h1{
+            font-size: 36px;
+            color: $orange-color;
+        }
+        h2{
+            color: $white-color;
+        }
+        p{
+            color: $gray-color;
+        }
+    }
+}
